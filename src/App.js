@@ -10,7 +10,7 @@ function App() {
     const [gender, setGender] = useState("male");
     const [subjects, setSubjects] = useState({
         english: true,
-        maths: true,
+        maths: false,
         physics: false,
     });
     const [resume, setResume] = useState("");
